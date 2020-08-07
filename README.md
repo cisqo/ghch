@@ -1,6 +1,7 @@
 # github-to-clubhouse
 
-[![Build Status](https://travis-ci.org/dcalhoun/github-to-clubhouse.svg?branch=master)](https://travis-ci.org/dcalhoun/github-to-clubhouse)
+(fork build status)
+[![Build Status](https://travis-ci.com/freight-trust/github-to-clubhouse.svg?branch=master)](https://travis-ci.com/freight-trust/github-to-clubhouse)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 [Clubhouse's](https://clubhouse.io) GitHub integration is great! Unfortunately,
@@ -11,6 +12,7 @@ than every user.
 * Creating a branch moves the associated ticket to "in dev".
 * Opening a pull request moves the associated ticket to "awaiting code review".
 * Merging a pull requests moves the associated ticket to "in QA".
+* Security Fixes + New Features (fork)
 
 ## Usage
 
