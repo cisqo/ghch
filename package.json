@@ -1,0 +1,13 @@
+{
+  "name": "gh-clubhouse-sync",
+  "version": "1.1.0",
+  "main": "entrypoint.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "esm": "^3.2.25",
+    "github-clubhouse": "freight-trust/gh-clubhouse#master",
+    "lodash": "^4.17.20"
+  }
+}

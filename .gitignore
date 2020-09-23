@@ -1,0 +1,11 @@
+# gitignore
+node_modules/
+.DS_Store
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+# Ignore node_modules
+node_modules/
