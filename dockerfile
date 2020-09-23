@@ -1,4 +1,5 @@
-FROM node:10
+# dockerfile nodejs
+FROM bitnami/node:12.18.4
 
 COPY . /app
 WORKDIR /app
@@ -6,4 +7,5 @@ WORKDIR /app
 ENV NODE_PATH /app/node_modules
 RUN yarn install --modules-folder $NODE_PATH
 
-ENTRYPOINT /app/entrypoint.sh
+ENTRYPOINT ["/app/entrypoint.sh"]
+
