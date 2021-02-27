@@ -1,5 +1,11 @@
 # dockerignore 
 .git
+_base
+.github/
+docker-compose.yml
+nginx.conf 
+container-ctrl.sh
+chart/
 
 # note: Unlike the Docker Hub, the Dockerfile is part of the build context on Quay. 
 # Thus, it must not appear in the .dockerignore file.
