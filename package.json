@@ -1,9 +1,9 @@
 {
   "name": "gh-clubhouse-sync",
-  "version": "1.1.0",
-  "main": "entrypoint.js",
+  "version": "1.2.0",
+  "main": "import.js",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "date-fns": "^2.16.1",
     "esm": "^3.2.25",
