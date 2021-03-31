@@ -1,12 +1,12 @@
 {
   "name": "github-to-clubhouse",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Configure Clubhouse to respond to nuanced GitHub events.",
   "main": "api/index.js",
-  "repository": "git@github.com:dcalhoun/github-to-clubhouse.git",
+  "repository": "git@github.com:freight-trust/github-to-clubhouse.git",
   "author": "David Calhoun <dpcalhoun@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "format": "prettier '**/*.{css,md,js,json}' --write",
     "lint": "eslint '{index,src/**/*}.js'",
