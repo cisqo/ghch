@@ -1,0 +1,33 @@
+{
+  "name": "github-to-clubhouse",
+  "version": "0.1.0",
+  "description": "Configure Clubhouse to respond to nuanced GitHub events.",
+  "main": "api/index.js",
+  "repository": "git@github.com:freight-trust/github-to-clubhouse.git",
+  "author": "David Calhoun <dpcalhoun@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "format": "prettier '**/*.{css,md,js,json}' --write",
+    "lint": "eslint '{index,src/**/*}.js'",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "micro": "^9.1.4",
+    "node-fetch": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.2",
+    "micro-dev": "^2.2.0",
+    "prettier": "^1.11.1"
+  }
+}
