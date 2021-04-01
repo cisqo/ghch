@@ -1,0 +1,20 @@
+{
+  "name": "chgh",
+  "version": "1.0.0",
+  "description": "github clubhouse modules/packages",
+  "main": "index.js",
+  "files": ["modules/**/*"],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifoldfinance/ghch.git"
+  },
+  "keywords": [],
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN MODULES",
+  "bugs": {
+    "url": "https://github.com/manifoldfinance/ghch/issues"
+  },
+  "homepage": "https://github.com/manifoldfinance/ghch#readme"
+}
