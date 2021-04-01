@@ -1,6 +1,6 @@
 {
-  "name": "clubhouse-cli",
-  "version": "2.7.0",
+  "name": "ghch",
+  "version": "2.8.0",
   "description": "A command line tool for viewing, creating and updating clubhouse.io stories",
   "main": "index.js",
   "engines": {
@@ -10,40 +10,41 @@
     "build"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc -b",
     "build:watch": "tsc --watch",
     "prepublish": "npm run clean && npm run build",
     "clean": "rm -rf build",
     "start": "node -r source-map-support/register build/bin/club.js",
     "test": "npm run test:format",
-    "test:format": "prettier --list-different src/**/*.ts",
-    "format": "prettier --write src/**/*.ts",
+    "test:format": "npx prettier --list-different src/**/*.ts",
+    "format": "npx prettier --write src/**/*.ts",
     "ci": "npm run build && npm run test"
   },
   "bin": {
-    "club": "./build/bin/club.js"
+    "ghch": "./build/bin/club.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andjosh/clubhouse-cli.git"
+    "url": "git+https://github.com/manifoldfinance/ghch.git"
   },
   "keywords": [
     "clubhouse",
+    "github",
+    "devtools",
     "cli"
   ],
-  "author": "email@andjosh.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andjosh/clubhouse-cli/issues"
+    "url": "https://github.com/manifoldfinance/ghch/issues"
   },
-  "homepage": "https://github.com/andjosh/clubhouse-cli#readme",
+  "homepage": "https://github.com/manifoldfinance/ghch#readme",
   "dependencies": {
-    "chalk": "^2.2.0",
-    "cli-spinner": "^0.2.6",
+    "chalk": "2.4.2",
+    "cli-spinner": "0.2.10",
     "clubhouse-lib": "0.12.0",
-    "commander": "^2.12.0",
-    "debug": "^4.0.0",
-    "prompt": "^1.0.0"
+    "commander": "2.20.0",
+    "debug": "4.3.1",
+    "prompt": "1.1.0"
   },
   "devDependencies": {
     "@types/chalk": "2.2.0",
