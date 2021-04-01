@@ -1,0 +1,13 @@
+{
+  "name": "gh-clubhouse-sync",
+  "version": "1.2.0",
+  "main": "import.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "esm": "^3.2.25",
+    "github-clubhouse": "freight-trust/gh-clubhouse#master",
+    "lodash": "^4.17.20"
+  }
+}
